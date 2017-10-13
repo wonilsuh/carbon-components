@@ -5,7 +5,9 @@ $bx--ease-out: cubic-bezier(0, 0, 0.38, 0.9); // Used for adding elements to the
 $bx--ease-in-out: cubic-bezier(0.2, 0.2, 0.38, 0.9); // Used for the majority of animations.
 $bx--standard-easing: $bx--ease-in-out; //proposing deprecating the term standard-easing
 $transition--base: 200ms;
-$transition--expansion: 200ms;
+$transition--expansion: 150ms;
+$transition--fade: 100ms;
+$transition--delay-unit:200ms;
 
 // Color Theme Variables
 $brand-01: $color__blue-51 !default;
